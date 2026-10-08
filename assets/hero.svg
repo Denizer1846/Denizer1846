@@ -1,0 +1,64 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Denis Bykov — Full-stack Developer">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081320"/>
+      <stop offset=".62" stop-color="#14263c"/>
+      <stop offset="1" stop-color="#283346"/>
+    </linearGradient>
+    <radialGradient id="light">
+      <stop offset="0" stop-color="#db9764" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#db9764" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8ba7c6" stroke-opacity=".075"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d59b6d"/>
+      <stop offset="1" stop-color="#637fa1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" rx="14" fill="url(#background)"/>
+  <rect width="1200" height="380" rx="14" fill="url(#grid)"/>
+  <circle cx="1005" cy="192" r="240" fill="url(#light)"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="64" y="54" width="28" height="3" fill="#d9a477"/>
+    <text x="105" y="59" font-size="14" font-weight="600" letter-spacing="2.5" fill="#b5c5d8">DENIZER1846 / PORTFOLIO</text>
+
+    <text x="64" y="160" font-size="67" font-weight="700" letter-spacing="3" fill="#f5f7fb">DENIS</text>
+    <text x="64" y="233" font-size="67" font-weight="700" letter-spacing="3" fill="#f5f7fb">BYKOV</text>
+
+    <rect x="64" y="257" width="450" height="2" fill="url(#accent)"/>
+    <text x="64" y="300" font-size="20" font-weight="500" fill="#e1e8f1">Full-stack Developer</text>
+    <text x="64" y="333" font-size="13" letter-spacing="2" fill="#91accb">EDUCATION  /  AI  /  AUTOMATION</text>
+  </g>
+
+  <path d="M742 60V328" stroke="#7a94af" stroke-opacity=".3"/>
+
+  <!-- Cologne Cathedral silhouette -->
+  <g fill="#0a1625" stroke="#7890a8" stroke-width="1.25">
+    <path d="M815 308V188H829V151H837V121L848 79L859 121V151H870V185H901V204H957V185H969V150H979V120L990 77L1001 120V150H1011V188H1025V308Z"/>
+    <path d="M837 121L848 79L859 121M979 120L990 77L1001 120" fill="none" stroke="#db9f72" stroke-width="2"/>
+    <path d="M827 192H1011M827 226H1011M827 267H1011" stroke="#738da9" stroke-opacity=".5"/>
+  </g>
+
+  <g fill="none" stroke="#c1a18b" stroke-opacity=".72" stroke-width="2">
+    <path d="M842 273V239Q848 227 854 239V273"/>
+    <path d="M984 273V239Q990 227 996 239V273"/>
+    <path d="M907 283V245Q930 210 953 245V283"/>
+  </g>
+
+  <!-- Hohenzollern Bridge -->
+  <g fill="none" stroke="#b68c70" stroke-width="2">
+    <path d="M1019 291Q1064 235 1110 291Q1155 235 1200 291"/>
+    <path d="M1019 308H1200M1019 291H1200"/>
+    <path d="M1041 275V308M1064 263V308M1088 274V308M1133 274V308M1155 263V308M1178 274V308"/>
+  </g>
+
+  <path d="M770 326H1200" stroke="#d1a07e" stroke-opacity=".6"/>
+  <path d="M800 337H1190M845 348H1145M890 359H1080" stroke="#8fa5bd" stroke-opacity=".15"/>
+
+  <text x="1138" y="57" font-family="monospace" font-size="12" letter-spacing="2" fill="#a4b6ca">2026</text>
+</svg>
